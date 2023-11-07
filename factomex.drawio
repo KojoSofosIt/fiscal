@@ -1,69 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T17:29:29.582Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="6b_r4SwOYN9ncQB4SAP_" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T17:30:42.812Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="YZgFSIbhZald90EIjeGV" version="22.0.8" type="github">
   <diagram name="General" id="fgEHPWFegrX-kjFi7lea">
     <mxGraphModel dx="1040" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-1" target="R3BRt_oNXC1ahtJ2xsNh-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="60" y="100" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-2" target="R3BRt_oNXC1ahtJ2xsNh-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-2" value="&lt;div&gt;Registro de emisores&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-4" value="Registro de operaciones" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-6" value="Registro de Receptores(directos o terceros)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-8" value="Solicitud de documentos" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-10" target="R3BRt_oNXC1ahtJ2xsNh-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-10" value="Generación de documentos" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-12" target="R3BRt_oNXC1ahtJ2xsNh-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-12" value="Timbrado de documentos" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-14" target="R3BRt_oNXC1ahtJ2xsNh-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-14" value="Envío de documentos timbrados a receptores" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-4" target="R3BRt_oNXC1ahtJ2xsNh-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="150" as="sourcePoint" />
-            <mxPoint x="560" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-8" target="R3BRt_oNXC1ahtJ2xsNh-6" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="210" as="sourcePoint" />
-            <mxPoint x="760" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="R3BRt_oNXC1ahtJ2xsNh-6" target="R3BRt_oNXC1ahtJ2xsNh-10" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="370" as="sourcePoint" />
-            <mxPoint x="610" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="R3BRt_oNXC1ahtJ2xsNh-19" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="380" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="sgtXVAknyf7668bBbMDZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="sgtXVAknyf7668bBbMDZ-1" target="sgtXVAknyf7668bBbMDZ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
